@@ -30,7 +30,7 @@ translators for little languages in their careers.
    :align: left
 
    ======================  =============================================
-   **Schedule**            T U, 1:05-2:20pm, 2207 |EngHalll|
+   **Schedule**            T U, 1:05-2:20pm, 2207 |EngHall|
    **Instructor**          `Robby <http://cs.ksu.edu/~robby>`__,
                            Office:       2181 |EngHall|,
                            E-mail:       ``robby at ksu.edu``,
