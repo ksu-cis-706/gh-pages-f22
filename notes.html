@@ -107,96 +107,15 @@ repository; thus, you need to have a <a class="reference external" href="https:/
 <section id="course-software-infrastructure">
 <span id="sireum"></span><h2>Course Software Infrastructure<a class="headerlink" href="#course-software-infrastructure" title="Permalink to this heading">¶</a></h2>
 <p>It is recommended that you use <a class="reference external" href="https://github.com/sireum/kekinian">Sireum IVE</a> which provides all the required tools
-for the course in a single bundle.
-Once installed, you can found all the required tools under
-<code class="docutils literal notranslate"><span class="pre">SIREUM_HOME/platform</span></code>.
-(Alternatively, you can also choose to use <a class="reference external" href="https://github.com/sireum/kekinian#sireum-a-high-assurance-system-engineering-platform">Sireum IVE next-gen</a>,
-which under active development; the subsequent paragraphs assume the former.)</p>
-<p><a class="reference external" href="http://logika.sireum.org/doc/01-getting-started/index.html#sireum-integrated-verification-environment-ive">Sireum IVE</a>
-is installed in all CS labs (e.g., 1114 and 1117 Engineering Hall);
-see <a class="reference internal" href="#cslabs"><span class="std std-ref">K-State CS Laboratories</span></a> for more information.</p>
-<p>Below are some information if you prefer to install the required tools yourself.</p>
-<p>You need <a class="reference external" href="http://www.java.com">Java</a> 8 (or above) SDK to compile and test the course example code,
-assignments, etc.
-For your course work, you can choose to use <a class="reference external" href="http://scala-lang.org">Scala</a> 2.12.12 (which still requires Java 8).</p>
-<p>We will use the <a class="reference external" href="http://www.scala-sbt.org/">Sbt</a>  build tool (1.3.13)
-and <a class="reference external" href="https://www.jetbrains.com/idea/">IntelliJ</a> with the following plugins (see the <a class="reference external" href="https://www.jetbrains.com/help/idea/managing-plugins.html">IntelliJ doc</a>
-on how to install them):</p>
-<ul>
-<li><p><a class="reference external" href="https://plugins.jetbrains.com/plugin/7358">ANTLR v4 grammar plugin</a></p>
-<p><a class="reference external" href="http://antlr.org">ANTLR</a> v4 is required for developing parser/lexer in the course.
-The ANTLR v4 grammar plugin is an excellent environment for ANTLR inside IntelliJ.
-It is highly recommended that you use the plugin when working with the course
-assignments.</p>
-</li>
-<li><p><a class="reference external" href="https://plugins.jetbrains.com/plugin/9345">JDT ASTView plugin</a></p>
-<p>To help you understand Eclipse Java Development Tools (JDT) object model
-Application Programming Interface (API), you can install the JDT ASTView plugin.
-The lectures assume that you have installed this plug-in.</p>
-</li>
-<li><p>[ASM Bytecode Viewer](<a class="reference external" href="http://plugins.jetbrains.com/plugin/10302-asm-bytecode-viewer">http://plugins.jetbrains.com/plugin/10302-asm-bytecode-viewer</a>)</p>
-<p>The example project uses ASM for generating Java class files.
-To help you understand ASM API, you can install the ASM Bytecode Viewer plugin.</p>
-</li>
-<li><p><a class="reference external" href="https://plugins.jetbrains.com/plugin/1347">Scala</a></p></li>
-</ul>
+for the course in a single bundle.</p>
 </section>
 <section id="staticjava-compiler-examples-and-slides">
 <h2>StaticJava Compiler, Examples, and Slides<a class="headerlink" href="#staticjava-compiler-examples-and-slides" title="Permalink to this heading">¶</a></h2>
 <p>The course example projects (e.g., StaticJava Compiler) are stored in a Git
-repository accessible at: <a class="reference external" href="https://github.com/ksu-cis-706/compiler">https://github.com/ksu-cis-706/compiler</a></p>
+repository accessible at: <a class="reference external" href="https://github.com/ksu-cis-706/f22-706-project">https://github.com/ksu-cis-706/f22-706-project</a></p>
 <p>Slides can be accessed at: <a class="reference external" href="http://goo.gl/jODYcY">http://goo.gl/jODYcY</a></p>
 <p>Note that the slides will be updated during the course so do not print them
 until we have discussed the topics.</p>
-</section>
-<section id="k-state-cs-laboratories">
-<span id="cslabs"></span><h2>K-State CS Laboratories<a class="headerlink" href="#k-state-cs-laboratories" title="Permalink to this heading">¶</a></h2>
-<section id="cs-windows-machines">
-<h3>CS Windows Machines<a class="headerlink" href="#cs-windows-machines" title="Permalink to this heading">¶</a></h3>
-<p>In a CS Windows machine (including Windows RDP server <code class="docutils literal notranslate"><span class="pre">remote.win.cs.ksu.edu</span></code>),
-Sireum IVE can be launched by using the start menu item <code class="docutils literal notranslate"><span class="pre">Sireum</span></code> (or <code class="docutils literal notranslate"><span class="pre">Sireum32</span></code>
-for the 32-bit version) or by issuing the command-line <code class="docutils literal notranslate"><span class="pre">idea64</span></code> or <code class="docutils literal notranslate"><span class="pre">idea</span></code>.
-Sireum CLI can be launched by issuing the command-line <code class="docutils literal notranslate"><span class="pre">sireum</span></code>.</p>
-<p>The absolute path to <code class="docutils literal notranslate"><span class="pre">SIREUM_HOME</span></code> is <code class="docutils literal notranslate"><span class="pre">C:\Sireum</span></code>.</p>
-</section>
-<section id="cs-linux-machines">
-<h3>CS Linux Machines<a class="headerlink" href="#cs-linux-machines" title="Permalink to this heading">¶</a></h3>
-<p>In a CS Linux machine (including using <code class="docutils literal notranslate"><span class="pre">ssh</span> <span class="pre">-X</span></code> or using
-the faster remote desktop protocol <a class="reference external" href="wiki.x2go.org/">X2Go</a> to <code class="docutils literal notranslate"><span class="pre">cslinux.cs.ksu.edu</span></code>),
-Sireum IVE can be launched by issuing the command-line <code class="docutils literal notranslate"><span class="pre">idea</span></code>.</p>
-<p>The absolute path to <code class="docutils literal notranslate"><span class="pre">SIREUM_HOME</span></code> is <code class="docutils literal notranslate"><span class="pre">/research/santos/sireum/linux64/Sireum</span></code>.</p>
-</section>
-<section id="cs-rdp-macos-server">
-<h3>CS RDP macOS Server<a class="headerlink" href="#cs-rdp-macos-server" title="Permalink to this heading">¶</a></h3>
-<p>In the CS RDP macOS server <code class="docutils literal notranslate"><span class="pre">remote-mac.cs.ksu.edu</span></code>,
-Sireum IVE can be launched by double-clicking the <code class="docutils literal notranslate"><span class="pre">Sireum</span></code> icon in <code class="docutils literal notranslate"><span class="pre">/Applications</span></code>
-or by issuing the command-line: <code class="docutils literal notranslate"><span class="pre">open</span> <span class="pre">/Applications/Sireum.app</span></code>.
-Sireum CLI can be launched by issuing the command-line <code class="docutils literal notranslate"><span class="pre">sireum</span></code>.</p>
-<p>The absolute path to <code class="docutils literal notranslate"><span class="pre">SIREUM_HOME</span></code> is <code class="docutils literal notranslate"><span class="pre">/Applications/Sireum.app/Contents/Resources/sireum-v3</span></code>.</p>
-</section>
-</section>
-<section id="rdp-clients">
-<h2>RDP Clients<a class="headerlink" href="#rdp-clients" title="Permalink to this heading">¶</a></h2>
-<p>If you plan to use RDP from your personal machine,
-you can download the appropriate free client for your machine OS:</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417">Microsoft Remote Desktop for macOS</a></p></li>
-<li><p><a class="reference external" href="https://www.microsoft.com/en-us/store/p/microsoft-remote-desktop/9wzdncrfj3ps">Microsoft Remote Desktop for Windows</a></p></li>
-<li><p>Linux:</p>
-<ul>
-<li><p><a class="reference external" href="http://www.remmina.org/wp/">Remmina</a></p></li>
-<li><p><a class="reference external" href="http://www.rdesktop.org">Rdesktop</a></p></li>
-<li><p><a class="reference external" href="http://www.realvnc.com/">RealVNC</a></p></li>
-<li><p><a class="reference external" href="http://tigervnc.org">TigerVNC</a></p></li>
-<li><p><a class="reference external" href="http://projects.gnome.org/vinagre/">Vinagre</a></p></li>
-<li><p><a class="reference external" href="https://www.kde.org/applications/internet/krdc">Krdc</a></p></li>
-</ul>
-</li>
-</ul>
-</section>
-<section id="x2go-clients">
-<h2>X2Go Clients<a class="headerlink" href="#x2go-clients" title="Permalink to this heading">¶</a></h2>
-<p>X2Go clients for various OSes can be downloaded from: <a class="reference external" href="http://wiki.x2go.org/doku.php/download:start">http://wiki.x2go.org/doku.php/download:start</a></p>
 </section>
 </section>
 

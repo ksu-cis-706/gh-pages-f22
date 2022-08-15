@@ -41,120 +41,14 @@ Course Software Infrastructure
 
 It is recommended that you use |SireumIVE| which provides all the required tools
 for the course in a single bundle.
-Once installed, you can found all the required tools under
-``SIREUM_HOME/platform``.
-(Alternatively, you can also choose to use `Sireum IVE next-gen <https://github.com/sireum/kekinian#sireum-a-high-assurance-system-engineering-platform>`__,
-which under active development; the subsequent paragraphs assume the former.)
-
-`Sireum IVE <http://logika.sireum.org/doc/01-getting-started/index.html#sireum-integrated-verification-environment-ive>`__
-is installed in all CS labs (e.g., 1114 and 1117 Engineering Hall);
-see :ref:`cslabs` for more information.
-
-Below are some information if you prefer to install the required tools yourself.
-
-You need |Java| 8 (or above) SDK to compile and test the course example code,
-assignments, etc.
-For your course work, you can choose to use |Scala| 2.12.12 (which still requires Java 8).
-
-We will use the `Sbt <http://www.scala-sbt.org/>`__  build tool (1.3.13)
-and |IntelliJ| with the following plugins (see the `IntelliJ doc <https://www.jetbrains.com/help/idea/managing-plugins.html>`__
-on how to install them):
-
-* `ANTLR v4 grammar plugin <https://plugins.jetbrains.com/plugin/7358>`__
-
-  |ANTLR| v4 is required for developing parser/lexer in the course.
-  The ANTLR v4 grammar plugin is an excellent environment for ANTLR inside IntelliJ.
-  It is highly recommended that you use the plugin when working with the course
-  assignments.
-
-* `JDT ASTView plugin <https://plugins.jetbrains.com/plugin/9345>`__
-
-  To help you understand Eclipse Java Development Tools (JDT) object model
-  Application Programming Interface (API), you can install the JDT ASTView plugin.
-  The lectures assume that you have installed this plug-in.
-
-* [ASM Bytecode Viewer](http://plugins.jetbrains.com/plugin/10302-asm-bytecode-viewer)
-
-  The example project uses ASM for generating Java class files.
-  To help you understand ASM API, you can install the ASM Bytecode Viewer plugin.
-
-* `Scala <https://plugins.jetbrains.com/plugin/1347>`__
-
 
 StaticJava Compiler, Examples, and Slides
 *****************************************
 
 The course example projects (e.g., StaticJava Compiler) are stored in a Git
-repository accessible at: https://github.com/ksu-cis-706/compiler
+repository accessible at: https://github.com/ksu-cis-706/f22-706-project
 
 Slides can be accessed at: http://goo.gl/jODYcY
 
 Note that the slides will be updated during the course so do not print them
 until we have discussed the topics.
-
-.. _cslabs:
-
-K-State CS Laboratories
-***********************
-
-
-CS Windows Machines
-===================
-
-In a CS Windows machine (including Windows RDP server ``remote.win.cs.ksu.edu``),
-Sireum IVE can be launched by using the start menu item ``Sireum`` (or ``Sireum32``
-for the 32-bit version) or by issuing the command-line ``idea64`` or ``idea``.
-Sireum CLI can be launched by issuing the command-line ``sireum``.
-
-The absolute path to ``SIREUM_HOME`` is ``C:\Sireum``.
-
-
-CS Linux Machines
-=================
-
-In a CS Linux machine (including using ``ssh -X`` or using
-the faster remote desktop protocol `X2Go <wiki.x2go.org/>`__ to ``cslinux.cs.ksu.edu``),
-Sireum IVE can be launched by issuing the command-line ``idea``.
-
-The absolute path to ``SIREUM_HOME`` is ``/research/santos/sireum/linux64/Sireum``.
-
-
-CS RDP macOS Server
-===================
-
-In the CS RDP macOS server ``remote-mac.cs.ksu.edu``,
-Sireum IVE can be launched by double-clicking the ``Sireum`` icon in ``/Applications``
-or by issuing the command-line: ``open /Applications/Sireum.app``.
-Sireum CLI can be launched by issuing the command-line ``sireum``.
-
-The absolute path to ``SIREUM_HOME`` is ``/Applications/Sireum.app/Contents/Resources/sireum-v3``.
-
-
-RDP Clients
-***********
-
-If you plan to use RDP from your personal machine,
-you can download the appropriate free client for your machine OS:
-
-* `Microsoft Remote Desktop for macOS <https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417>`__
-
-* `Microsoft Remote Desktop for Windows <https://www.microsoft.com/en-us/store/p/microsoft-remote-desktop/9wzdncrfj3ps>`__
-
-* Linux:
-
-  * `Remmina <http://www.remmina.org/wp/>`__
-
-  * `Rdesktop <http://www.rdesktop.org>`__
-
-  * `RealVNC <http://www.realvnc.com/>`__
-
-  * `TigerVNC <http://tigervnc.org>`__
-
-  * `Vinagre <http://projects.gnome.org/vinagre/>`__
-
-  * `Krdc <https://www.kde.org/applications/internet/krdc>`__
-
-X2Go Clients
-************
-
-X2Go clients for various OSes can be downloaded from: http://wiki.x2go.org/doku.php/download:start
