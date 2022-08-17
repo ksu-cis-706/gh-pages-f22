@@ -34,7 +34,7 @@ translators for little languages in their careers.
    **Instructor**          `Robby <http://cs.ksu.edu/~robby>`__,
                            Office:       2181 |EngHall|,
                            E-mail:       ``robby at ksu.edu``,
-                           Office Hours: T 2:30-3pm
+                           Office Hours: T 10:30-11:30am & 2:30-3pm
    ======================  =============================================
 
 ----
