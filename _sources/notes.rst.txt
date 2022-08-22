@@ -39,8 +39,36 @@ repository; thus, you need to have a `GitHub account <https://github.com/join>`_
 Course Software Infrastructure
 ******************************
 
-It is recommended that you use |SireumIVE| which provides all the required tools
+It is required that you use |SireumIVE| which provides all the required tools
 for the course in a single bundle.
+
+To install from source:
+
+* **macOS/Linux**
+
+  .. code-block::
+
+     git clone https://github.com/sireum/kekinian
+     cd kekinian
+     git checkout <commit-or-tag>
+     git submodule update --init --recursive
+     bin/build.cmd setup
+
+* **Windows**
+
+  .. code-block::
+
+     git clone https://github.com/sireum/kekinian
+     cd kekinian
+     git checkout <commit-or-tag>
+     git submodule update --init --recursive
+     bin\build.cmd setup
+
+``<commit-or-tag>`` is ``f65e193`` or ``4.20220822.f65e193`` (or later).
+
+You can also download pre-built version of the above commit/tag at: https://github.com/sireum/kekinian/releases
+
+See more information at: https://github.com/sireum/kekinian/blob/master/readme.md
 
 StaticJava Compiler, Examples, and Slides
 *****************************************
