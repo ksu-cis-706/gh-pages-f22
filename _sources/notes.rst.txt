@@ -64,6 +64,10 @@ To install from source:
      git submodule update --init --recursive
      bin\build.cmd setup
 
+``<commit-or-tag>`` is ``8603817`` or ``4.20220822.8603817`` (or a later commit tip or tag).
+
+You can also download pre-built version of the above commit/tag at: https://github.com/sireum/kekinian/releases
+
 See more information at: https://github.com/sireum/kekinian/blob/master/readme.md
 
 StaticJava Compiler, Examples, and Slides
