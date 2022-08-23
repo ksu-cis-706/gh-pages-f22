@@ -68,7 +68,14 @@ To install from source:
 
 You can also download pre-built version of the above commit/tag at: https://github.com/sireum/kekinian/releases
 
+Before executing the macOS pre-built self-extracting file, you might need to "un-quarantine" the self-extracting executable:
+
+.. code-block::
+
+   xattr -rd com.apple.quarantine <PATH-TO>/sireum-dev-mac.sfx
+
 See more information at: https://github.com/sireum/kekinian/blob/master/readme.md
+
 
 StaticJava Compiler, Examples, and Slides
 *****************************************
