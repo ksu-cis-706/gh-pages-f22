@@ -11,12 +11,9 @@ Schedule
 
 .. include:: def.rst
 
-**Links**
-
-* `Lecture Slides <http://goo.gl/jODYcY>`__
-
 * Canvas
 
+  * Lecture Slides
   * Lecture Videos
 
 ----
