@@ -76,6 +76,7 @@ Before executing the macOS pre-built self-extracting file, you might need to "un
 
 See more information at: https://github.com/sireum/kekinian/blob/master/readme.md
 
+.. _gitw:
 
 Git Workflow
 ************

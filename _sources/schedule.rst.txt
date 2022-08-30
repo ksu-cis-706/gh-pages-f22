@@ -39,7 +39,7 @@ Schedule
      - Course Overview
      - * Install |SireumIVE| (see :ref:`sireum`)
        * Clone private repo https://github.com/ksu-cis-706/f22-706-<eid>
-       * Set up https://github.com/ksu-cis-706/f22-706-project as upstream (see `Working with Forks <https://help.github.com/articles/working-with-forks/>`__)
+       * Set up https://github.com/ksu-cis-706/f22-706-project as upstream (see :ref:`gitw` & `Working with Forks <https://help.github.com/articles/working-with-forks/>`__)
    * - 2. T: Aug 30
      - * Top-down Parsers
        * ANTLR4
