@@ -77,13 +77,34 @@ Before executing the macOS pre-built self-extracting file, you might need to "un
 See more information at: https://github.com/sireum/kekinian/blob/master/readme.md
 
 
+Git Workflow
+************
+
+To merge updates from https://github.com/ksu-cis-706/f22-706-project (replace ``<eid>`` with your K-State e-id):
+
+.. code-block::
+
+   git clone git@github.com:ksu-cis-706/f22-706-<eid>.git
+   cd f22-706-<eid>
+   git remote add upstream git@github.com:ksu-cis-706/f22-706-project.git
+   git fetch upstream
+   git merge upstream/master
+   
+Resolve any git merge issues, then:
+
+.. code-block::
+
+   git push
+   sireum proyek ive .
+
+
 StaticJava Compiler, Examples, and Slides
 *****************************************
 
 The course example projects (e.g., StaticJava Compiler) are stored in a Git
 repository accessible at: https://github.com/ksu-cis-706/f22-706-project
 
-Slides can be accessed at: http://goo.gl/jODYcY
+Slides can be accessed in the course's K-State Canvas Files section.
 
-Note that the slides will be updated during the course so do not print them
+Note that the slides might be updated during the course so do not print them
 until we have discussed the topics.
