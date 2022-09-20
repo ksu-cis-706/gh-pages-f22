@@ -61,6 +61,8 @@ Schedule
        * Bottom-up Parsers
      - * Dragon Ch. 2.7 & Ch. 6.1 - 6.5
      - Project M2: Abstract Syntax Tree (due **Sep 26, 11:59, US Central**)
+
+       Exam 1 Discussion
      - * Demo: JDT AstView Plugin
    * - 5. T: Sep 20
      - * Virtual Machine
@@ -75,12 +77,12 @@ Schedule
        * `ASM <https://asm.ow2.io/>`__ Documentation and API
      - Project M3: Type Checking (due **Oct 10, 11:59pm, US Central**)
 
-       801 Final Project (due **Dec 16, 11:59pm, US Central**)
+       Exam 2 Discussion
      - 
    * - 7. T: Oct 4
      -
      -
-     - Exam 1 & 2 Discussion
+     - 801 Final Project (due **Dec 16, 11:59pm, US Central**)
      - 
    * - 8. T: Oct 11
      - * Static Analysis -- Overview
@@ -101,11 +103,13 @@ Schedule
      -
      -
      - Project M5: Static Analysis (due **Nov 7, 11:59pm, US Central**)
+
+       Exam 3 Discussion
      - 
    * - 11. T: Nov 1
      -
      -
-     - Exam 3 Discussion
+     - 
      - 
    * - 12. *No Lab*
      -
