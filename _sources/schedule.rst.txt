@@ -109,27 +109,27 @@ Schedule
    * - 11. T: Nov 1
      -
      -
-     - 
-     - 
-   * - 12. *No Lab*
-     -
-     -
-     - 
-     -
-   * - 13. T: Nov 15
-     -
-     -
      - Exam 4: Static Analysis -- CFG, Reaching Definition, Classic Problems, and Monotone Dataflow Framework
+     - 
+   * - 12. T: Nov 8
+     -
+     -
+     - Exam 4 Discussion
+     -
+   * - 13. *No Lab*
+     -
+     -
+     -
      -
    * - A. **Thanksgiving Break**
      -
      -
      -
      - 
-   * - 14. T: Nov 29
+   * - 14. *No Lab*
      -
      -
-     - Exam 4 Discussion
+     - 
      - 
    * - 15. T: Dec 6
      -
